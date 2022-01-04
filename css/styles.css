@@ -108,7 +108,7 @@ hr:not([size]) {
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 1.2;
 }
 
@@ -11560,7 +11560,7 @@ body {
   position: relative;
   width: 100%;
   height: auto;
-  min-height: 35rem;
+  /* min-height: 35rem; */
   padding: 15rem 0;
   background: url("../assets/img/bg01.jpg");
   background-position: center;
@@ -11573,10 +11573,6 @@ body {
   font-size: 2.5rem;
   line-height: 1.2;
   color: white;
-  /* background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-          background-clip: text; */
 }
 .masthead h2, .masthead .h2 {
   max-width: 20rem;
@@ -11588,12 +11584,8 @@ body {
   }
 }
 @media (min-width: 992px) {
-  .masthead {
-    height: 100vh;
-    padding: 0;
-  }
   .masthead h1, .masthead .h1 {
-    font-size: 4.5rem;
+    font-size: 3rem;
   }
   .masthead h2, .masthead .h2 {
     max-width: 30rem;
@@ -11603,7 +11595,7 @@ body {
 
 .about-section {
   padding-top: 10rem;
-  background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+  color: black;
 }
 .about-section p {
   margin-bottom: 5rem;
